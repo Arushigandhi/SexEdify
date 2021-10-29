@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+
+
+.HeroSection{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: block;
+    /* background-color: red; */
+}
+
+.curves{
+    position: absolute;
+    width: 800px;
+    max-height: 100vh;
+    margin-left: -2%;
+    margin-top: -6%;
+}
+
+.group{
+    position: absolute;
+    max-width: 550px;
+    height: 500px;
+    left: 125px;
+    top: 15px;
+}
+
+.HeroTitle{
+    padding: 50px 60px 60px 0;
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 125px;
+    color: #EF629F;
+    /* white-space: nowrap;
+    overflow: hidden;
+    width: 10em;
+    animation: type 4s steps(20, end); */
+}
+
+/* @keyframes type{ 
+    from { width: 0; } 
+}  */
+
+.HeroDescription{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.button{
+    position: relative;
+    /* background-color: white;  */
+    border: 2px solid #EF629F;
+    border-radius: 38.5px;
+    color: #EF629F;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 60px;
+    transition: 0.4s ease background-color;
+    left: 725px;
+    margin-top: 20px;
+}
+
+
+.button:hover{
+    background-color:rgba(239, 98, 159, 0.2);
+    color: #EF629F;
+}
+
+.HeroDescription p{
+    width: 475px;
+    position: absolute;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-right: 60px;
+    text-align: justify;
+}
+

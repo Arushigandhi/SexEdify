@@ -1,0 +1,93 @@
+.Question{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #EF629F;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* margin-bottom: 200px; */
+}
+
+.outer_layout{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+.cards_layout{
+    position: absolute;
+    margin-top: 12%;
+    padding-bottom: 20px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.leftbox {
+    float:left; 
+    background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
+    border-radius: 40px;
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
+    width:25%;
+    height:400px;
+}
+.middlebox{
+    float:left; 
+    background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
+    border-radius: 40px;
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
+    width:25%;
+    height:400px;
+}
+.rightbox{
+    float:right;
+    background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
+    border-radius: 40px;
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
+    width:25%;
+    height:400px;
+}
+
+h2{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 88px;
+    text-align: center;
+    filter: none;
+    color: #000000;
+}
+
+.one{
+    position: absolute;
+    left: 10%;
+    max-width: 354px;
+    height: 300px;
+}
+
+.two{
+    position: absolute;
+    left: 5%;
+    max-width: 354px;
+    height: 300px;
+}
+
+.three{
+    position: absolute;
+    left: 10%;
+    max-width: 354px;
+    height: 300px;
+}
