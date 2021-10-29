@@ -1,20 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const sampleCard = (props) => {
-return(
-       <div class={props.cardColClass}>
-            <div className={props.cardBorder} style={props.cardStyle}>
-                {props.image}
-              <div class="card-body">
-                <h5 class="card-title">{props.cardTitle}</h5>
-                <p class="card-text">
-                 {props.cardText}
-                </p>
-                {props.children}
-              </div>
-            </div>
-          </div>
+function CardComponent() {
+    return (
+        <div>
+            
+        </div>
     )
 }
 
-export default SampleCard;
+export default CardComponent

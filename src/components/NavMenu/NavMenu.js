@@ -1,5 +1,4 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import styles from './NavMenu.module.css';
 
 export default function NavMenu() {
