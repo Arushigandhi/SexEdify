@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./HeroSection.module.css";
 import curves from "./Vect.png";
 import group from "./Group.png";
-import { Link } from "react-router-dom";
 import SimpleForm from "./SimpleForm";
 
 export default function HeroSection() {
