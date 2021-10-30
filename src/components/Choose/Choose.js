@@ -4,10 +4,6 @@ import one from './[removal 1.png';
 import two from './sexedify3 (1) 1.png';
 import three from './sexedify4 1.png';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import PreTeen from '../../pages/PreTeen';
-import Teen from '../../pages/Teen';
-import Adult from '../../pages/Adult';
 
 export default function Choose() {
     return (

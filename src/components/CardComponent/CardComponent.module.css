@@ -35,21 +35,21 @@
     justify-content: space-around;
         
 }
-.leftbox {
+.leftboxx {
     /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, #F4CD6D 28.12%, rgba(255, 216, 121, 0.9) 88.54%); */
     /* border-radius: 20px; */
     width: 300px;
     height: 240px;
     z-index: -1;
 }
-.middlebox{
+.middleboxx{
     /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, #F389A4 0%, rgba(255, 143, 172, 0.9) 76.24%); */
     border-radius: 20px;
     width: 300px;
     height: 240px;
     z-index: -1;
 }
-.rightbox{
+.rightboxx{
     /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, rgba(92, 190, 245, 0.99) 15.1%, rgba(92, 190, 245, 0.77) 92.71%); */
     border-radius: 20px;
     width: 300px;
