@@ -4,6 +4,7 @@ import CardOne from './CardOne.png';
 import CardTwo from './CardTwo.png';
 import CardThree from './CardThree.png';
 import { Link } from 'react-router-dom';
+import GoToTop from '../../GoToTop';
 
 
 function CardComponent(props) {
@@ -32,6 +33,7 @@ function CardComponent(props) {
                 <h3>{props.DThree}</h3>
             </div>
             </Link>
+            <GoToTop />
             </div>
         </div>
 

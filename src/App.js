@@ -6,6 +6,7 @@ import Adult from './pages/Adult';
 import Home from './pages/Home';
 // import SimpleForm from './components/HeroSection/SimpleForm';
 import Container from './components/Container/Container';
+// import GoToTop from './GoToTop';
 
 
 function App() {
