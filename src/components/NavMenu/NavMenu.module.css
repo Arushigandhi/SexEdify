@@ -31,10 +31,12 @@ a {
 }
 
 
-a:hover {
+.nav_menu_options:hover {
     color: white;
     background-color: #EF629F;
     border: 2px solid #EF629F;
     border-radius: 30px;
 }
+
+
 

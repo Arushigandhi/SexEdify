@@ -130,6 +130,7 @@ function Container() {
         <div className={styles.container}>
             <div className={styles.component}>
                 {content()}
+                
             </div>
             <a href="/" className={styles.button}>Take the Quiz!</a> 
         </div>
