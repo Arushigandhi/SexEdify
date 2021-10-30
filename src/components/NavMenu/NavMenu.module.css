@@ -1,42 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .NavMenuStyles {
-    display: flex;
-    justify-content: end;
-    padding-right: 60px;
-    padding-top: 1em;
-    column-gap: 1.5em;
-    height: 3em;
+  display: flex;
+  justify-content: end;
+  padding-right: 60px;
+  padding-top: 1em;
+  column-gap: 1.5em;
+  height: 3em;
 }
 
 ul {
-    display: flex;
-    flex-direction: row; 
+  display: flex;
+  flex-direction: row;
 }
 
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    font-family: Inter;
-    padding: 12px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #000000;
-    transition: border 0.3s ease;
-    line-height: 22px;
+  text-decoration: none;
+  font-family: Inter;
+  padding: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+  transition: border 0.3s ease;
+  line-height: 22px;
 }
-
 
 .nav_menu_options:hover {
-    color: white;
-    background-color: #EF629F;
-    border: 2px solid #EF629F;
-    border-radius: 30px;
+  color: white;
+  background-color: #ef629f;
+  border: 2px solid #ef629f;
+  border-radius: 30px;
 }
-
-
-

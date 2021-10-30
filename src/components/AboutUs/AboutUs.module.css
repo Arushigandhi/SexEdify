@@ -1,49 +1,47 @@
-.AboutUs{
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: block;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.AboutUs {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
-.curves{
-    width: 800px;
-    z-index: -1;
-    position: absolute;
-    top: 38.34%;
+.curves {
+  width: 800px;
+  z-index: -1;
+  position: absolute;
+  top: 38.34%;
 }
 
-.Title{
-    /* background: -webkit-linear-gradient(#EF629F, #912755);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    color: #EF629F;
-    width: 100%;
-    margin: auto;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-family: DM Serif Text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
+.Title {
+  color: #ef629f;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: DM Serif Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
 }
 
-.description{
-    border: 2px solid #EF629F;
-    border-radius: 40px;
-    padding: 3%;
-    font-family: Inter;
-    margin: auto;
-    margin: 15%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: justify;
-    text-align: center;
+.description {
+  border: 2px solid #ef629f;
+  border-radius: 40px;
+  padding: 3%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  margin: auto;
+  margin: 15%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: justify;
+  text-align: center;
 }
-
-
