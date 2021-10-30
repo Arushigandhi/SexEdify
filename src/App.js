@@ -4,7 +4,7 @@ import PreTeen from './pages/PreTeen';
 import Teen from './pages/Teen';
 import Adult from './pages/Adult';
 import Home from './pages/Home';
-import SimpleForm from './pages/SimpleForm';
+// import SimpleForm from './components/HeroSection/SimpleForm';
 import Container from './components/Container/Container';
 
 
@@ -22,9 +22,9 @@ function App() {
           <Route path="/adult">
             <Adult />
           </Route>
-          <Route path="/simpleform">
+          {/* <Route path="/simpleform">
             <SimpleForm />
-          </Route>
+          </Route> */}
           <Route path="/" exact>
             <Home />
           </Route>

@@ -31,7 +31,7 @@ a {
   line-height: 22px;
 }
 
-a:hover {
+.nav_menu_options:hover {
   color: white;
   background-color: #ef629f;
   border: 2px solid #ef629f;
