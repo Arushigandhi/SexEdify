@@ -1,11 +1,14 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 
+const CenterAlign = styled.div`
+  margin: 0 auto;
+`;
 const theme = {
   background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
-  headerBgColor: '#E389B0',
+  headerBgColor: '#EF629F',
   headerFontColor: '#fff',
   headerFontSize: '15px',
   botBubbleColor: '#fff5f9',
@@ -230,9 +233,12 @@ const theme = {
 
          
 const ThemedExample = () => (
+  <CenterAlign>
   <ThemeProvider theme={theme}>
-    <ChatBot steps={steps} />;
+    <ChatBot steps={steps} floating={true}/>
   </ThemeProvider>
+  </CenterAlign>
+
 );
 
 export default ThemedExample;
