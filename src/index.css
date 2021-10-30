@@ -5,7 +5,7 @@
 
 html {
   scroll-behavior: smooth;
-  user-select: none;
+  /* user-select: none; */
 }
 
 body {
