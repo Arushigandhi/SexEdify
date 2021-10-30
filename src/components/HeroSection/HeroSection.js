@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './HeroSection.module.css';
 import curves from './Vect.png';
 import group from './Group.png';
+import { Link } from 'react-router-dom';
+
 
 export default function HeroSection() {
     return (
@@ -13,7 +15,9 @@ export default function HeroSection() {
             </div>
             <a href="#AboutUs" className={styles.button}>Learn More </a> 
             <img src={group} className={styles.group} alt="" />
-            <a href="/simpleform" className={styles.button}>Try Out the Edify Bot!</a> 
+            <Link to="/simpleform">
+            <label className={styles.button}>Try Out the Edify Bot!</label> 
+            </Link>
         </div>
 
     )
