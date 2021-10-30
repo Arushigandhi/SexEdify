@@ -1,0 +1,59 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #FFD0E4 0%, #FDE7B1 0.01%, rgba(253, 229, 177, 0.994588) 27.08%, rgba(247, 170, 169, 0.839602) 61.46%, rgba(243, 137, 164, 0.752488) 86.46%, rgba(239, 98, 159, 0.65) 100%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.component {
+    /* overflow: scroll; */
+    margin: 0 auto;
+    max-width: 900px;
+    max-height: 480px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 30px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 20px;
+    display: flex;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+/* .component::-webkit-scrollbar {
+    width: 10px;
+}
+
+.component::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.component::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */
+
+.button{
+    position: absolute;
+    /* background-color: white;  */
+    border: 2px solid #EF629F;
+    border-radius: 34.5px;
+    color: #EF629F;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 34%;
+    margin-left: 61%;
+    transition: 0.4s ease background-color;
+}
+
+
+.button:hover{
+    background-color:rgba(239, 98, 159, 0.2);
+    color: #EF629F;
+}

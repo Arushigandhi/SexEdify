@@ -1,0 +1,79 @@
+.Question{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    /* margin: auto; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    letter-spacing: 4px;
+    font-style: italic;
+}
+
+.outer_layout{
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+
+}
+
+
+.cards_layout{
+    position: absolute;
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+}
+.leftbox {
+    /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, #F4CD6D 28.12%, rgba(255, 216, 121, 0.9) 88.54%); */
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 240px;
+    z-index: -1;
+}
+.middlebox{
+    /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, #F389A4 0%, rgba(255, 143, 172, 0.9) 76.24%); */
+    border-radius: 20px;
+    width: 300px;
+    height: 240px;
+    z-index: -1;
+}
+.rightbox{
+    /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, rgba(92, 190, 245, 0.99) 15.1%, rgba(92, 190, 245, 0.77) 92.71%); */
+    border-radius: 20px;
+    width: 300px;
+    height: 240px;
+    z-index: -1;
+}
+
+.cards_layout h2{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    filter: none;
+    color: black;
+    margin-top: -28%;
+}
+
+.cards_layout h3{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    margin-top: -42%;
+    margin-left: 3%;
+    font-size: 48px;
+}

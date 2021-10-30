@@ -8,15 +8,12 @@ export default function HeroSection() {
         <div className={styles.HeroSection} >
             <img src={curves} className={styles.curves} alt="" />
             <div className={styles.HeroDescription}>
-            <div class="wrapper">
-                <div class="typing-demo">
-                    <h1 className={styles.HeroTitle}>SexEdify</h1>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>       
+                <h1 className={styles.HeroTitle}>SexEdify</h1>
+            <p>The Ultimate Safe Haven of Sex Education <br /> Exploring and Understanding your body isn’t a taboo!</p>       
             </div>
             <a href="#AboutUs" className={styles.button}>Learn More </a> 
             <img src={group} className={styles.group} alt="" />
+            <a href="/simpleform" className={styles.button}>Try Out the Edify Bot!</a> 
         </div>
 
     )

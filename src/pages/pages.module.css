@@ -1,0 +1,13 @@
+.Heading{
+    font-family: DM Serif Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* background: linear-gradient(359.72deg, rgba(253, 231, 177, 0.64) 9.78%, rgba(239, 207, 164, 0.64) 45.68%, rgba(239, 98, 159, 0.64) 89.2%, rgba(239, 98, 159, 0.64) 95.9%, rgba(239, 98, 159, 0.64) 95.91%); */
+    background: -webkit-linear-gradient(#EF629F, #912755);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

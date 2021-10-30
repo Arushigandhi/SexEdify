@@ -40,35 +40,38 @@
     background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
     border-radius: 40px;
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
-    width:25%;
+    width:300px;
     height:400px;
+    transition: 0.3s ease background-color;
 }
 .middlebox{
     float:left; 
     background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
     border-radius: 40px;
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
-    width:25%;
+    width:300px;
     height:400px;
+    transition: 0.3s ease background-color;
 }
 .rightbox{
     float:right;
     background: linear-gradient(180deg, rgba(239, 98, 159, 0.48) 0%, rgba(239, 98, 159, 0) 100%, rgba(239, 98, 159, 0.24) 100%);
     border-radius: 40px;
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
-    width:25%;
+    width:300px;
     height:400px;
+    transition: 0.3s ease background-color;
 }
 
 h2{
     font-family: DM Serif Text;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 88px;
     text-align: center;
     filter: none;
-    color: #000000;
+    color: white;
 }
 
 .one{
@@ -91,3 +94,4 @@ h2{
     max-width: 354px;
     height: 300px;
 }
+
