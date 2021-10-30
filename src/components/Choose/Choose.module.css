@@ -42,7 +42,7 @@
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
     width:300px;
     height:400px;
-    transition: 0.3s ease background-color;
+    transition: 0.3s ease height;
 }
 .middlebox{
     float:left; 
@@ -51,7 +51,7 @@
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
     width:300px;
     height:400px;
-    transition: 0.3s ease background-color;
+    transition: 0.3s ease height;
 }
 .rightbox{
     float:right;
@@ -60,7 +60,7 @@
     filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
     width:300px;
     height:400px;
-    transition: 0.3s ease background-color;
+    transition: 0.3s ease height;
 }
 
 h2{
@@ -95,15 +95,15 @@ h2{
     height: 300px;
 }
 
-/* .leftbox:hover{
-    font-size: 35px;
+.leftbox:hover{
+    height: 230px;
 }
 
 .rightbox:hover {
-    font-size: 35px;
+    height: 230px;
 }
 
 .middlebox:hover {
-    font-size: 35px;
-} */
+    height: 230px;
+}
 

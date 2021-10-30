@@ -41,6 +41,7 @@
     width: 300px;
     height: 240px;
     z-index: -1;
+    transition: 0.3s ease height;
 }
 .middleboxx{
     /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, #F389A4 0%, rgba(255, 143, 172, 0.9) 76.24%); */
@@ -48,6 +49,7 @@
     width: 300px;
     height: 240px;
     z-index: -1;
+    transition: 0.3s ease height;
 }
 .rightboxx{
     /* background: radial-gradient(84.9% 92.62% at 18.68% 17.89%, rgba(92, 190, 245, 0.99) 15.1%, rgba(92, 190, 245, 0.77) 92.71%); */
@@ -55,6 +57,7 @@
     width: 300px;
     height: 240px;
     z-index: -1;
+    transition: 0.3s ease height;
 }
 
 .cards_layout h2{
@@ -78,5 +81,15 @@
     font-size: 48px;
 }
 
+.leftboxx:hover{
+    height: 260px;
+}
 
+.rightboxx:hover {
+    height: 260px;
+}
+
+.middleboxx:hover {
+    height: 260px;
+}
   
