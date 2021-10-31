@@ -1,3 +1,9 @@
+https://github.com/JyothsnaAshok/Sexedify-Discuss
+
+This github contains the code for the discussion portal.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
